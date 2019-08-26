@@ -1,0 +1,12 @@
+movel = input("INFORME QUAL O MOVEL:\n")
+s = input("INFORME A POSIÇAO FINAL:\n")
+print(s)
+s0 = input("INFORME A POSIÇAO INICIAL:\n")
+print(s0)
+t = input("INFORME O TEMPO FINAL:\n")
+print(t)
+t0 =input("INFORME O TEMPO INICIAL:\n")
+print(t0)
+
+vm = ((float(s)-float(s0))/(float(t)-float(t0))
+print("A VELOCIDADE MEDIA DE", movel, "E", vm)

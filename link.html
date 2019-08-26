@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>
+        Trabalhando com links
+        </title>
+        <meta charset="utf-8">
+        <meta type="author" content="Alice Aquino">
+        <meta type="keywords" content="flash, herois, series">
+        <meta type= "description" content="Site sobre a série The Flash">
+    </head>
+    <body link="red" alink="yellow" vlink="gold">
+        <!--esses negocio e a cor que o link vai ficar quando vai fazer alguma coisa-->
+    <h1>
+    <a href="#s1">
+        SEÇÃO 1
+    </a>
+    <a href="#s2">
+        SEÇÃO 2
+    </a>
+    <a href="#s3">
+        SEÇÃO 3
+    </a>
+    </h1>
+<hr/>
+         <h1>
+            LINK EXTERNO
+         </h1>
+    <a href="https://www.youtube.com" target="_blank">
+    <!--se fosse _self abria na mesma aba-->
+    <!--se for pra abrir o link por uma imagem e assim se nao bota so o nome mesmo-->
+    <img width="400" height="150" src="https://s3.amazonaws.com/igd-wp-uploads-pluginaws/wp-content/uploads/2017/05/24140906/quanto-custa-anunciar-no-youtube.png">
+    <!--widht e largura e height e altura-->
+    </a>
+<hr/>
+    <h1>
+        LINK INTERNO
+    </h1>
+    <a href="index.html" target="_blank">
+        MEU PRIMEIRO SITEEE   
+    </a>
+<hr/>
+    <h1>
+    LINK ANCORA
+    </h1>
+     <!--color piker e um app do google pra pegar cor-->   
+     <section id="s1">
+            <h3>SEÇÃO 1</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </section>
+            
+            <section id="s2">
+            <h3>SEÇÃO 2</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </section>
+            
+            <section id="s3">
+                <h3>SEÇÃO 3</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </section> -->
+
+     <hr/>
+     <h1>
+         LISTAS ORDENADAS
+     </h1>
+     <h2>
+         CURSOS DA MCPF
+     </h2>
+     <ol type="1">
+         <!--se for letra bota a se for maiuscula A se for numero bota o 1 ou nada-->
+         <ol>
+            <h1> 
+                TECNOLOGIAS
+            </h1>
+             <li>
+                 INFO
+             </li>
+             <li>
+                 REDES
+             </li>
+         </ol>
+         <li>
+             INFO
+         </li>
+         <li>
+             REDES
+         </li>
+         <li>
+             ADM
+         </li>
+         <li>
+             BLABLA
+         </li>
+     </ol>
+     <span>
+         Alice
+     </span>
+     <br/>
+     <!--quebra de linha-->
+     <label>
+         LINDA
+     </label>
+     <table bgcolor="pink" border="7">
+         <tr>
+             <td>
+                 l1,c1
+             </td>
+             <td>
+                 l2,c2
+             </td>
+         </tr>
+<!--tr e linha td e coluna nao pode botar o tr antes do td-->
+     </table>
+     <form>
+            <span>
+                Digite o seu e-mail
+            </span>
+            <input type="email" minlength="32" maxlength="16" required placeholder="e-mail">
+            <br>
+            <span>
+                Digite a sua senha
+            </span>
+            <input type="password" required placeholder="senha">
+            <br>
+            <span>
+                Data de Nasimento
+            </span>
+            <input type="date" required name="">
+            <br>
+            <span>
+                Cor
+            </span>
+            <input type="color" name="">
+            <br>
+            <span>
+                Alcance
+            </span>
+            <input type="range" name="">
+            <br>
+            <span>
+                Sexo
+            </span>
+            <input type="radio" required name="sexo">Masc
+            <input type="radio" name="sexo">Fem
+            <br>
+            <span>
+                Caixa de Seleção
+            </span>
+            <input type="checkbox" >
+            <br>
+            <span>
+                Arquivo
+            </span>
+            <input type="file">
+            <br>
+            <span>
+                Número
+            </span>
+            <input type="number" required min="0" max="56" step="0.5">
+            <br>
+            <span>
+                Botão
+            </span>
+            <input type="button" value="Clique aqui">
+            <br>
+            <span>
+                Tempo
+            </span>
+            <input type="time" name="">
+            <br>
+            <span>
+                Confirme seu e-mail
+            </span>
+            <input type="email" name="">
+            <br>
+            <button type="submit">
+                OK
+            </button>
+            </form>
+        </hr>
+            <audio width="320" height="240" controls>
+                <source src="videos/video.mp4" type="video/ogg">
+            </audio>
+            
+            <iframe  width="400" height="400" src="about.html">
+              <p>Your browser does not support iframes.</p>
+            </iframe>
+            
+            <a href="prova.pdf" download>Prova</a>            
+    </body>
+</html>
+</html>
